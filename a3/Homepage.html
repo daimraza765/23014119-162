@@ -1,0 +1,63 @@
+
+
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Store - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold text-gray-800">Gallery Store</h1>
+            <nav class="mt-4 flex flex-wrap gap-2">
+                <button class="px-4 py-2 bg-blue-600 text-white rounded-md font-medium">Home</button>
+                <button class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md font-medium transition" onclick="window.location.href='gallery.html'">Gallery</button>
+                <button class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md font-medium transition" onclick="window.location.href='products.html'">Products</button>
+                <button class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md font-medium transition" onclick="window.location.href='about.html'">About Us</button>
+                <button class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-md font-medium transition" onclick="window.location.href='contact.html'">Contact</button>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <section class="hero text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Welcome to Our Gallery Store</h2>
+            <p class="text-xl text-gray-600">Discover beautiful artworks and unique pieces for your home or office.</p>
+        </section>
+        
+        <section class="featured">
+            <h3 class="text-2xl font-semibold text-gray-800 mb-6">Featured Collections</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="featured-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://assets.onecompiler.app/43b7q4r3c/43f65fjwg/images.jpeg" alt="Modern Art" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h4 class="text-lg font-medium text-gray-800">Modern Art</h4>
+                    </div>
+                </div>
+                <div class="featured-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://assets.onecompiler.app/43b7q4r3c/43f65fjwg/images%20(1).jpeg" alt="Classic Paintings" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h4 class="text-lg font-medium text-gray-800">Classic Paintings</h4>
+                    </div>
+                </div>
+                <div class="featured-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://assets.onecompiler.app/43b7q4r3c/43f65fjwg/images%20(2).jpeg" alt="Photography" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h4 class="text-lg font-medium text-gray-800">Photography</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-800 text-white py-6 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Gallery Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
