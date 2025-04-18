@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Store - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gallery Store</h1>
+        <nav>
+            <button class="nav-btn" onclick="window.location.href='index.html'">Home</button>
+            <button class="nav-btn" onclick="window.location.href='gallery.html'">Gallery</button>
+            <button class="nav-btn" onclick="window.location.href='products.html'">Products</button>
+            <button class="nav-btn" onclick="window.location.href='about.html'">About Us</button>
+            <button class="nav-btn active">Contact</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p>Arfa Kareem block<br>Gujrat<br>University of Gujrat</p>
+                    
+                    <h3>Hours</h3>
+                    <p>Monday-Friday: 10am - 7pm<br>
+                    Saturday: 11am - 8pm<br>
+                    Sunday: 12pm - 6pm</p>
+                    
+                    <h3>Get in Touch</h3>
+                    <p>Phone: +92 342 6041670<br>
+                    Email: daimr9599@.com</p>
+                </div>
+                
+                <form class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Gallery Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
