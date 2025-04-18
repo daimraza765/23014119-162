@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Store - About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                <h1 class="text-3xl font-bold text-gray-800 mb-4 md:mb-0">Gallery Store</h1>
+                <nav class="flex flex-wrap gap-2 justify-center md:justify-end">
+                    <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium transition duration-300" onclick="window.location.href='index.html'">Home</button>
+                    <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium transition duration-300" onclick="window.location.href='gallery.html'">Gallery</button>
+                    <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium transition duration-300" onclick="window.location.href='products.html'">Products</button>
+                    <button class="px-4 py-2 bg-blue-600 text-white rounded-lg font-medium shadow-md">About Us</button>
+                    <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium transition duration-300" onclick="window.location.href='contact.html'">Contact</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <section class="about max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">About Gallery Store</h2>
+            <div class="flex flex-col lg:flex-row gap-8 bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="lg:w-1/2">
+                    <img src="https://assets.onecompiler.app/43b7q4r3c/43f65fjwg/images%20(11).jpeg" alt="Our Store" 
+                         class="w-full h-full object-cover">
+                </div>
+                <div class="lg:w-1/2 p-8">
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Story</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Founded in 2010, Gallery Store has been bringing exceptional artworks to art lovers and collectors worldwide. 
+                            We represent emerging and established artists, offering a diverse range of styles and mediums.
+                        </p>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            To make art accessible to everyone while supporting artists in their creative journey. 
+                            We believe art should be enjoyed, not just admired from afar.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Team</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Our team of art experts carefully curates each piece in our collection, 
+                            ensuring quality and authenticity in every artwork we offer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Gallery Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
