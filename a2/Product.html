@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Store - Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                <h1 class="text-3xl font-bold text-gray-800 mb-4 md:mb-0">Gallery Store</h1>
+                <nav class="flex flex-wrap gap-2 justify-center md:justify-end">
+                    <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium transition duration-300" onclick="window.location.href='index.html'">Home</button>
+                    <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium transition duration-300" onclick="window.location.href='gallery.html'">Gallery</button>
+                    <button class="px-4 py-2 bg-blue-600 text-white rounded-lg font-medium shadow-md">Products</button>
+                    <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium transition duration-300" onclick="window.location.href='about.html'">About Us</button>
+                    <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg font-medium transition duration-300" onclick="window.location.href='contact.html'">Contact</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <section class="products">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">Available Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Product Card 1 -->
+                <div class="product-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://assets.onecompiler.app/43b7q4r3c/43f65fjwg/images%20(15).jpeg" alt="Painting" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Abstract Painting</h3>
+                        <p class="text-lg font-bold text-blue-600 mb-4">$199.99</p>
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 transform hover:scale-105">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Product Card 2 -->
+                <div class="product-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://assets.onecompiler.app/43b7q4r3c/43f65fjwg/images%20(13).jpeg" alt="Sculpture" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Modern Sculpture</h3>
+                        <p class="text-lg font-bold text-blue-600 mb-4">$349.99</p>
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 transform hover:scale-105">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Product Card 3 -->
+                <div class="product-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://assets.onecompiler.app/43b7q4r3c/43f65fjwg/images%20(14).jpeg" alt="Photograph" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Limited Edition Photo</h3>
+                        <p class="text-lg font-bold text-blue-600 mb-4">$129.99</p>
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 transform hover:scale-105">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Product Card 4 -->
+                <div class="product-card bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://via.placeholder.com/250x200" alt="Print" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Canvas Print</h3>
+                        <p class="text-lg font-bold text-blue-600 mb-4">$89.99</p>
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 transform hover:scale-105">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Gallery Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
